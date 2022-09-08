@@ -23,11 +23,13 @@ const Planets = (props) => {
     BECOMES TRUTHY WHEN INFO IS FILLED, OTHERWISE IT WONT GET PAST THE && BECAUSE IT'S FALSEY */}
             {planets &&
                 <div>
-                    <h1>Planet: { planets.name }</h1>
+                    <h1>{ planets.name }</h1>
                     <h4>Climate: { planets.climate }</h4>
                     <h4>Terrain: { planets.terrain }</h4>
                     <h4>Surface Water: { planets.surface_water }</h4>
                     <h4>Population: { planets.population }</h4>
+                    <h4>Rotation Period: { planets.rotation_period }</h4>
+                    <h4>Orbital Period: { planets.orbital_period }</h4>
                 </div>
             }
         </div>
